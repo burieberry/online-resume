@@ -1,4 +1,8 @@
 body,
+main,
+section,
+header,
+footer,
 div,
 ul,
 li,
@@ -92,6 +96,14 @@ a {
   display: block;
 }
 
+.headerlink {
+  display: inherit;
+}
+
+.online-classes {
+  margin-top: 1em;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -102,6 +114,7 @@ a {
 #skills-h3 {
   color: #f5ae23;
   display: none;
+  margin-top: 1em;
 }
 
 .orange {
@@ -129,7 +142,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #585868;
 }
 
 .flex-box {
@@ -172,6 +185,7 @@ span {
 }
 
 #lets-connect {
+  background-color: #585868;
   text-align: center;
 }
 
