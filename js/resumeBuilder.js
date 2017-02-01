@@ -22,14 +22,13 @@ bio.display = function() {
     $("#header").prepend(formattedName, formattedRole);
 
     // contacts
-    var formattedMobile = HTMLmobile.replace('%data%', bio.contacts.mobile);
     var formattedEmail = HTMLemail.replace('%data%', bio.contacts.email).replace('#', bio.contacts.email);
     var formattedTwitter = HTMLtwitter.replace('%data%', bio.contacts.twitter).replace('#', bio.contacts.twitter);
     var formattedlinkedIn = HTMLlinkedIn.replace('%data%', bio.contacts.linkedin).replace('#', bio.contacts.linkedin);
     var formattedGithub = HTMLgithub.replace('%data%', bio.contacts.github).replace('#', bio.contacts.github);
     var formattedLocation = HTMLlocation.replace('%data%', bio.contacts.location);
-    $("#topContacts").append(formattedMobile, formattedEmail, formattedTwitter, formattedlinkedIn, formattedGithub, formattedLocation);
-    $("#footerContacts").append(formattedMobile, formattedEmail, formattedTwitter, formattedlinkedIn, formattedGithub, formattedLocation);
+    $("#topContacts").append(formattedEmail, formattedTwitter, formattedlinkedIn, formattedGithub, formattedLocation);
+    $("#footerContacts").append(formattedEmail, formattedTwitter, formattedlinkedIn, formattedGithub, formattedLocation);
 
     // welcome message & biopic
     var formattedWelcomeMsg = HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage);
