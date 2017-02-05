@@ -37,16 +37,15 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5em;
   color: #999;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
-  font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #999;
   line-height: 22px;
 }
 
@@ -67,7 +66,6 @@ h5 {
 
 
 .date-text {
-  font-style: italic;
   font-size: 14px;
   color: #999;
   line-height: 16px;
@@ -75,18 +73,16 @@ h5 {
 }
 
 .location-text {
-  font-style: italic;
   font-size: 14px;
   color: #999;
   line-height: 16px;
   float: right;
-
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
-  line-height: 21px;
+  line-height: 1.3em;
 }
 
 a {
@@ -101,6 +97,8 @@ a {
 }
 
 .online-classes {
+  font-style: italic;
+  font-weight: normal;
   margin-top: 1em;
 }
 
@@ -140,7 +138,6 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #585868;
 }
@@ -182,6 +179,15 @@ img {
 
 span {
   padding: 5px;
+}
+
+.employer,
+.project-title,
+.school-name,
+.class-title  {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0;
 }
 
 #lets-connect {

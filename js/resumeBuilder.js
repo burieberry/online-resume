@@ -100,7 +100,7 @@ education.display = function() {
     $("#education").append(HTMLonlineClasses);
 
     education.onlineCourses.forEach(function(course) {
-        var formattedTitle = HTMLonlineTitle.replace('%data%', course.title);
+        var formattedTitle = HTMLonlineTitle.replace('%data%', course.title).replace('#', course.url);
         var formattedOnlineSchool = HTMLonlineSchool.replace('%data%', course.school);
         var formattedTitleSchool = formattedTitle.concat(formattedOnlineSchool);
         var formattedDates = HTMLonlineDates.replace('%data%', course.dates);
