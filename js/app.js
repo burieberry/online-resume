@@ -87,20 +87,23 @@ var model = {
         "dates": "Sept 2016",
         "description": 'Developed a responsive online portfolio website. ' +
           'Replicated the provided design mockup in HTML and CSS.',
-        "images": ['']
+        "images": [''],
+        "url": "https://github.com/burieberry/portfolio-site"
     }, {
         "title": "Online Resume",
         "dates": "Oct 2016",
         "description": "Online resume that you're currently viewing. " +
           "Developed using HTML, CSS, and Javascript.",
-        "images": []
+        "images": [],
+        "url": "https://github.com/burieberry/online-resume-updated"
     }, {
         "title": "Classic Arcade Game: Frogger",
         "dates": "Nov 2016",
         "description": "" +
           "Wrote object-oriented Javascript to recreat the classic frogger " +
           "arcade game using the provided visual assets and game loop engine.",
-        "images": []
+        "images": [],
+        "url": "https://burieberry.github.io/frogger-arcade-game/index.html"
     }, {
         "title": "Website Optimization",
         "dates": "Jan 2016",
@@ -108,12 +111,14 @@ var model = {
           "optimization- and performance-related issues so that it achieves " +
           "a Google PageSpeed score over 90 and runs at 60 frames per second " +
           "on mobile and desktop.",
-        "images": []
+        "images": [],
+        "url": "https://github.com/burieberry/web-performance-optimization"
     }, {
         "title": "Cat Clicker",
         "dates": "Feb 2017",
         "description": "Select a cat and get them clicks!",
-        "images": []
+        "images": [],
+        "url" : "https://burieberry.github.io/cat-clicker/"
     }, {
         "title": "Neighborhood Map",
         "dates": "March 2017",
@@ -123,12 +128,14 @@ var model = {
           "these locations, and a listview to support simple browsing of all locations. Researched " +
           "and implemented third-party APIs that provide additional information about each of these " +
           "locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).",
-        "images": []
+        "images": [],
+        "url": "https://github.com/burieberry/neighborhood-map-project"
     }, {
         "title": "Feed Reader Testing",
         "dates": "March 2017",
         "description": "Test-driven development (TDD) project.",
-        "images": []
+        "images": [],
+        "url": "https://github.com/burieberry/feedreader-tdd"
     }]
   },
 
@@ -223,7 +230,7 @@ var octopus = {
   getProjects: function() {
     var projects = model.projects;
     projects.projects.forEach(function(project) {
-      var formattedTitle = HTMLprojectTitle.replace('%data%', project.title);
+      var formattedTitle = HTMLprojectTitle.replace('%data%', project.title).replace('#', project.url);
       var formattedDates = HTMLprojectDates.replace('%data%', project.dates);
       var formattedDesc = HTMLprojectDescription.replace('%data%', project.description);
 
