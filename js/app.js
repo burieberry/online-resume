@@ -82,6 +82,10 @@ var model = {
 
   // projects data
   projects: {
+
+// TODO: separate projects with live urls and repo urls into two sections
+// TODO: add images for projects
+
     "projects": [{
         "title": "Portfolio Site",
         "dates": "Sept 2016",
@@ -89,6 +93,7 @@ var model = {
           'Replicated the provided design mockup in HTML and CSS.',
         "images": [''],
         "url": "https://github.com/burieberry/portfolio-site"
+// TODO: replace content & images on project, then add live url to this doc
     }, {
         "title": "Online Resume",
         "dates": "Oct 2016",
@@ -129,7 +134,7 @@ var model = {
           "and implemented third-party APIs that provide additional information about each of these " +
           "locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).",
         "images": [],
-        "url": "https://github.com/burieberry/neighborhood-map-project"
+        "url": "https://burieberry.github.io/neighborhood-map-project/"
     }, {
         "title": "Feed Reader Testing",
         "dates": "March 2017",
