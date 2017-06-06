@@ -4,7 +4,7 @@ var model = {
   // bio data
   bio: {
     'name': 'Burcu Noyan',
-    'role': 'Front-End Web Developer & Digital Producer',
+    'role': 'Digital Producer / Front-End Design & Development',
     'contacts': {
       'mobile': '(347) 444-4444',
       'email': 'burcunoyan@gmail.com',
@@ -16,13 +16,17 @@ var model = {
 
     // welcome message & biopic
     'biopic': 'images/biopic.jpg',
-    'welcomeMessage': 'Hi! I\'m a front-end web developer, digital producer and editor.<br>' +
-      'I enjoy doing web design and creative storytelling.',
+    'welcomeMessage': 'Welcome!',
 
     // skills
     'skills': {
-      'tech' : ['HTML / CSS', 'Javascript / jQuery / JSON / AJAX',
-                'Photoshop / InDesign', 'WordPress, JIRA'],
+      'tech' : [
+      'Content Management Systems (WordPress CMS, other)',
+      'Adobe Creative Suite (Photoshop, InDesign)',
+      'HTML5/CSS3',
+      'Javascript, jQuery',
+      'JIRA, Trello',
+      'SEO, Google Analytics'],
       'language' : 'Turkish and French'
     }
   },
