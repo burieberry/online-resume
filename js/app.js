@@ -77,13 +77,6 @@ var model = {
         "dates": "Jun 2012 - Aug 2012",
         "description": "• Pitched stories, wrote online articles, and prepared web slideshows on Adobe CQ5 CMS",
         "url": "http://www.luckymag.com/"
-    }, {
-        "employer": "Boutiika.com",
-        "title": "Fashion Research and PR Intern",
-        "location": "New York, NY",
-        "dates": "Sep 2011 - Jan 2012",
-        "description": "",
-        "url": "https://www.linkedin.com/company/boutiika/"
     }]
   },
 
